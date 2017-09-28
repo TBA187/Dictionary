@@ -32,9 +32,6 @@ namespace ConsoleApp2
                 var newSearchTerm = Console.ReadLine();
                 bool succes = false;
 
-                //long phoneNumber = 1234;
-                //phoneBook.TryGetValue("John", out phoneNumber);
-
                 foreach (KeyValuePair<string, long> item in phoneBook)
                 {
                     if (newSearchTerm.ToLower() == item.Key.ToLower())
